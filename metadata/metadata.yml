@@ -1,6 +1,9 @@
 metadata_version: 1
 name: Cluster Analysis Based on Fasting and Postprandial Plasma Glucose and Insulin
   Concentrations
+description: This capsule contains the code for reproducing the result of the paper
+  entitled "Cluster Analysis Based on Fasting and Postprandial Plasma Glucose and
+  Insulin Concentrations"
 tags:
 - MATLAB
 - cluster
