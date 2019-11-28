@@ -57,7 +57,7 @@ plot(k,100*PC);
 % Using G0&G120&I0&I120 as attributes
 [~,~,~,~,PC]=kmeans_opt(X_G0G120I0I120,MaxNumberClusters,CutoffVariance);
 plot(k,100*PC);
-legend('G0','G0&G120','G0&I0','G0&G120&I0&I120');
+legend('G0','G0&G120','G0&I0','G0&G120&I0&I120','Location','southeast');
 ylabel('Percentage of variance explained');
 xlabel('Cluster');
 ylim([0 100]);
