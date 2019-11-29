@@ -39,13 +39,18 @@ switch AttrName
         TEMP2 = cidx==2;
         cidx(TEMP1) = 2;
         cidx(TEMP2) = 1;
-    case 'G0&G120&I0&I120'
-        TEMP1 = cidx==1;
-        TEMP2 = cidx==2;
-        TEMP3 = cidx==3;
+    case 'G0&I0'
+        TEMP1 = cidx==2;
+        TEMP2 = cidx==3;
         cidx(TEMP1) = 3;
-        cidx(TEMP2) = 1;
-        cidx(TEMP3) = 2;
+        cidx(TEMP2) = 2;
+    case 'G0&G120&I0&I120'
+%         TEMP1 = cidx==1;
+%         TEMP2 = cidx==2;
+%         TEMP3 = cidx==3;
+%         cidx(TEMP1) = 1;
+%         cidx(TEMP2) = 2;
+%         cidx(TEMP3) = 3;
 end
 
 % Adding a column to the table with the cluster indices of each observation.

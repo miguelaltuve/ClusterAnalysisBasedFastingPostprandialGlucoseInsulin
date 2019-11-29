@@ -56,8 +56,8 @@ X_G0G120I0I120 = data(:,2:5);
 
 % Finding the optimal number of clusters k according to the elbow and silhouette methods
 findingOptimalNumberClusters(X_G0,X_G0G120,X_G0I0,X_G0G120I0I120)
-
-% Clustering the data using the k-means clustering algorithm
+% 
+% % Clustering the data using the k-means clustering algorithm
 Cluster.G0 = ClusteringData(dataoriginal,X_G0,'G0');
 Cluster.G0G120 = ClusteringData(dataoriginal,X_G0G120,'G0&G120');
 Cluster.G0I0 = ClusteringData(dataoriginal,X_G0I0,'G0&I0');
