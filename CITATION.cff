@@ -7,5 +7,5 @@ authors:
 title: "Cluster Analysis Based on Fasting and Postprandial Plasma Glucose and Insulin Concentrations [Source Code]"
 version: 1.0.0
 doi: 10.1101/861468
-date-released: 2022-04-20
+date-released: 2024-02-11
 url: "https://github.com/miguelaltuve/ClusterAnalysisBasedFastingPostprandialGlucoseInsulin"
